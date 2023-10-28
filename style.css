@@ -1,20 +1,33 @@
-.mainDiv{
-    height: 800px;
-    background: blue;
-}
+* {
 
-.laderalDiv {
-    width: 200px;
-    height: 800px;
-    background: aqua;
-}
-.imagemHeader {
-    height: 100px;
-    background: red;
+    margin: 0;
 
 }
 
-.conteudoHeader{
-    height: 100%;
-background: green;    
+.MeuNome {
+
+    max-height: 30px;
+    background-color: rgb(5, 84, 5);
+
+    width: 250px;
+    font-size: 10px;
+
+}
+
+.FotoDiv {
+    height:5px
+    
+   
+
+}
+
+.infoDiv {
+    
+    
+}
+
+.FundolateralDiv {
+    height: 600px;
+    width: 250px;
+    background-color: rgb(5, 84, 5);
 }
