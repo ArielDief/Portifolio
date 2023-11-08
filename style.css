@@ -1,61 +1,110 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-#header h1{
-    padding-top: 5px;
-    font-size: 23px;
-    color: aliceblue;
+#header h1 {
+  padding-top: 5px;
+  font-size: 23px;
+  color: aliceblue;
 }
+
 .img-header {
-    padding: 10px;
-    margin: auto;
-    border-radius: 50%; /* Isso cria cantos 100% arredondados, tornando a imagem circular */
-    width: 200px; /* Defina a largura desejada para sua imagem */
-    height: 200px; /* Defina a altura desejada para sua imagem */
-    display: flex; /* Torna o conteúdo flexível */
-    justify-content: center;
+  padding: 10px;
+  margin: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px white;
 }
 
-.nav-bar a{
-    color: rgb(240, 240, 240);
-   font-size: 35px;
-    ;
+.nav-bar a {
+  color: rgb(240, 240, 240);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: rgb(3, 84, 2); 
 }
 
 .container {
-    display: flex; /* Torna o conteúdo flexível */
+  display: flex;
+}
+
+.header {
+  height: 100vh;
+  width: 300px;
+  background-color: rgb(3, 84, 21);
+}
+
+.itens-nav a {
+  display: block;
+  background-color: rgb(255, 255, 255); 
+  color: rgb(3, 84, 2); 
+  font-size: 20px;
+  padding: 10px;
+  margin: 1px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%; 
+}
+
+.itens-nav a:hover {
+  background-color: rgb(3, 84, 2);
+  color: white; 
+}
+
+.pagina-total {
+  color: aliceblue;
+  background-color: black;
+  height: 100vh;
+  flex: 1;
+ 
+}
+
+.pagina-total h2 {
+  text-align: center;
+  background-color: rgb(5, 151, 2);
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+ 
+}
+
+.pagina-total p {
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+}
+
+.projetosDiv{
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(4, 255, 0);
+  height: 50px;
+  width: 100%;
+  padding: 5px; 
   }
+
+.experienciasDiv {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(4, 255, 0);
+  height: 50px;
+  width: 100%;
+  padding: 5px;
+  }
+
+.contatoDiv {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(4, 255, 0);
+  height: 50px;
+  width: 100%;
+  padding: 5px;
   
-  #header {
-    
-    height: 100vh;
-    width: 300px;
-    background-color: rgb(3, 84, 21);
-    /* Deixe a largura fixa para o header */
-  }
-  
-  .pagina-total {
-    color: aliceblue;
-    
-    background-color: black;
-    height: 100vh; /* Ajuste a altura para ser igual à altura do header */
-    flex: 1; /* Isso permite que a div ocupe o espaço restante */
-  }
- .pagina-total h2{
-    text-align: center;
-    background-color: rgb(3, 84, 2);
-    height: 50px;
-    width: 100%;
-    padding: 5px;
- }
- .pagina-total p {
-    margin-left: 10px;
-    width: 50%;
-    text-align: center;
- }
+}
