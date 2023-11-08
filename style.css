@@ -18,10 +18,7 @@
   height: 200px;
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   box-shadow: 0 0 10px white;
-=======
->>>>>>> 0ed0e6837f3d9f528b33b1299408729f083e12dc
 }
 
 .nav-bar a {
@@ -38,11 +35,7 @@
   display: flex;
 }
 
-<<<<<<< HEAD
-.header {
-=======
 #header {
->>>>>>> 0ed0e6837f3d9f528b33b1299408729f083e12dc
   height: 100vh;
   width: 300px;
   background-color: rgb(3, 84, 21);
@@ -70,26 +63,16 @@
   background-color: black;
   height: 100vh;
   flex: 1;
-<<<<<<< HEAD
  
-=======
->>>>>>> 0ed0e6837f3d9f528b33b1299408729f083e12dc
 }
 
 .pagina-total h2 {
   text-align: center;
-<<<<<<< HEAD
   background-color: rgb(5, 151, 2);
   height: 50px;
   width: 100%;
   padding: 5px;
  
-=======
-  background-color: rgb(3, 84, 2);
-  height: 50px;
-  width: 100%;
-  padding: 5px;
->>>>>>> 0ed0e6837f3d9f528b33b1299408729f083e12dc
 }
 
 .pagina-total p {
@@ -97,7 +80,6 @@
   width: 60%;
   text-align: center;
 }
-<<<<<<< HEAD
 
 .projetosDiv{
   text-align: center;
@@ -126,5 +108,3 @@
   padding: 5px;
   
 }
-=======
->>>>>>> 0ed0e6837f3d9f528b33b1299408729f083e12dc
