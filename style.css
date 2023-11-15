@@ -1,110 +1,68 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-#header h1 {
-  padding-top: 5px;
-  font-size: 23px;
-  color: aliceblue;
+.DivMains{
+    display: flex;
+    line-height: center;
+
+}
+.headerMain{
+    width: 20%;
+    height: 500px;
+    background: yellow;
 }
 
-.img-header {
-  padding: 10px;
+.sectionMain{
+    width: 80%;
+    height: 500px;
+    background: green;
+}
+
+.footerMain {
+   height: 30px;
+   width: 100%;
+   background-color: blue; 
+}
+
+.imagemHeader {
+    padding: 10px;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 30px;
   width: 200px;
   height: 200px;
   display: flex;
   justify-content: center;
-  box-shadow: 0 0 10px white;
-}
-
-.nav-bar a {
-  color: rgb(240, 240, 240);
-  font-size: 35px;
-  text-decoration: none;
-}
-
-.nav-bar a:hover {
-  color: rgb(3, 84, 2); 
-}
-
-.container {
-  display: flex;
-}
-
-#header {
-  height: 100vh;
-  width: 300px;
-  background-color: rgb(3, 84, 21);
-}
-
-.itens-nav a {
-  display: block;
-  background-color: rgb(255, 255, 255); 
-  color: rgb(3, 84, 2); 
-  font-size: 20px;
-  padding: 10px;
-  margin: 1px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10%; 
-}
-
-.itens-nav a:hover {
-  background-color: rgb(3, 84, 2);
-  color: white; 
-}
-
-.pagina-total {
-  color: aliceblue;
-  background-color: black;
-  height: 100vh;
-  flex: 1;
- 
-}
-
-.pagina-total h2 {
-  text-align: center;
-  background-color: rgb(5, 151, 2);
-  height: 50px;
-  width: 100%;
-  padding: 5px;
- 
-}
-
-.pagina-total p {
-  margin: 10px auto;
-  width: 60%;
-  text-align: center;
-}
-
-.projetosDiv{
-  text-align: center;
-  color: aliceblue;
-  background-color: rgb(4, 255, 0);
-  height: 50px;
-  width: 100%;
-  padding: 5px; 
-  }
-
-.experienciasDiv {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgb(4, 255, 0);
-  height: 50px;
-  width: 100%;
-  padding: 5px;
-  }
-
-.contatoDiv {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgb(4, 255, 0);
-  height: 50px;
-  width: 100%;
-  padding: 5px;
   
 }
+
+.imagemHeader img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+
+}
+
+.botoesHeader{
+    padding: 10px;
+    background: pink;
+    color: black;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    
+}
+.confgBotoes{
+    padding: 10px;
+    background: pink;
+    color: black;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    height: 20px;
+}
+
