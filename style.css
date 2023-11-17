@@ -1,50 +1,56 @@
-body { 
+body {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-.DivMains{
+.DivMains {
     display: flex;
     line-height: center;
 
 }
-.headerMain{
+
+.headerMain {
     width: 20%;
-    height: 500px;
+    height: 750px;
     background: yellow;
+    position: fixed;
+
+
 }
 
-.sectionMain{
+.sectionMain {
     width: 80%;
-    height: 500px;
+    height: 1500px;
     background: green;
+    margin-left: 20%;
 }
 
 .footerMain {
-   height: 30px;
-   width: 100%;
-   background-color: blue; 
-}
-
-.imagemHeader {
-    padding: 10px;
-  margin: auto;
-  border-radius: 30px;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  
+    height: 30px;
+    width: 100%;
+    background-color: blue;
 }
 
 .imagemHeader img {
+    padding: 10px;
+    margin: auto;
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.imagemHeader img {
+    border-radius: 30%;
     box-shadow: 0 0 10px white;
 
 }
 
-.botoesHeader{
+.botoesHeader {
     padding: 10px;
     background: pink;
     color: black;
@@ -53,16 +59,10 @@ body {
     align-items: center;
     display: flex;
     height: 20px;
-    
-}
-.confgBotoes{
-    padding: 10px;
-    background: pink;
-    color: black;
-    flex-wrap: wrap;
-    text-decoration: none;
-    align-items: center;
-    display: flex;
-    height: 20px;
+
 }
 
+h2 {
+    text-align: center;
+    display: flex;
+}
