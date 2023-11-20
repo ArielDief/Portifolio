@@ -1,79 +1,90 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-#header h1 {
-  padding-top: 5px;
-  font-size: 23px;
-  color: aliceblue;
+.DivMains {
+    display: flex;
+    line-height: center;
+
 }
 
-.img-header {
-  padding: 10px;
-  margin: auto;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
+.headerMain {
+    width: 20%;
+    height: 100vh;
+    background:  rgb(3, 84, 2);
+    position: fixed;
+
+
 }
 
-.nav-bar a {
-  color: rgb(240, 240, 240);
-  font-size: 35px;
-  text-decoration: none;
+.sectionMain {
+    width: 80%;
+    height: 1500px;
+    background: green;
+    margin-left: 20%;
+    padding: 0;
+
 }
 
-.nav-bar a:hover {
-  color: rgb(3, 84, 2); 
+.footerMain {
+    height: 30px;
+    width: 80%;
+    background-color: blue;
+    margin-left: 20%;
+    padding: 0;
+
 }
 
-.container {
-  display: flex;
+.imagemHeader img {
+    padding: 10px;
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+
 }
 
-#header {
-  height: 100vh;
-  width: 300px;
-  background-color: rgb(3, 84, 21);
+.imagemHeader img {
+    border-radius: 30%;
+    box-shadow: 0 0 10px white;
+
 }
 
-.itens-nav a {
-  display: block;
-  background-color: rgb(255, 255, 255); 
-  color: rgb(3, 84, 2); 
-  font-size: 20px;
-  padding: 10px;
-  margin: 1px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10%; 
+.botoesHeader {
+    padding: 0;
+    background: pink;
+    color: black;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    list-style-type: none;
 }
 
-.itens-nav a:hover {
-  background-color: rgb(3, 84, 2);
-  color: white; 
+.botoesHeader button {
+    background-color: pink;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.pagina-total {
-  color: aliceblue;
-  background-color: black;
-  height: 100vh;
-  flex: 1;
+.botoesHeader button:hover {
+    background-color: green;
+    color: white;
 }
+    
+    
 
-.pagina-total h2 {
-  text-align: center;
-  background-color: rgb(3, 84, 2);
-  height: 50px;
-  width: 100%;
-  padding: 5px;
-}
-
-.pagina-total p {
-  margin: 10px auto;
-  width: 60%;
-  text-align: center;
+h2 {
+    text-align: center;
+    
 }
