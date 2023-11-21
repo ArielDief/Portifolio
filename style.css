@@ -7,34 +7,33 @@ body {
 .DivMains {
     display: flex;
     line-height: center;
-
 }
 
 .headerMain {
     width: 20%;
     height: 100vh;
-    background:  rgb(3, 84, 2);
+    background: rgb(3, 84, 2);
     position: fixed;
-
-
 }
 
 .sectionMain {
     width: 80%;
     height: 1500px;
-    background: green;
+    background: black; /* Alterado para preto */
+    color: white; /* Alterado para branco */
     margin-left: 20%;
     padding: 0;
-
+   
 }
 
 .footerMain {
-    height: 30px;
+    height: 50px;
     width: 80%;
-    background-color: blue;
+    background-color:rgb(3, 84, 2);
     margin-left: 20%;
     padding: 0;
-
+    margin-top: 0; /* Removido o espaçamento */
+    
 }
 
 .imagemHeader img {
@@ -45,20 +44,13 @@ body {
     height: 200px;
     display: flex;
     justify-content: center;
-    
-
-}
-
-.imagemHeader img {
     border-radius: 30%;
     box-shadow: 0 0 10px white;
-
 }
 
 .botoesHeader {
     padding: 0;
-    background: pink;
-    color: black;
+    color: white; /* Alterado para branco */
     flex-wrap: wrap;
     text-decoration: none;
     align-items: center;
@@ -68,23 +60,46 @@ body {
 }
 
 .botoesHeader button {
-    background-color: pink;
-    color: black;
-    border: none;
+    display: inline-block;
     padding: 10px 20px;
-    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s;
+   
+    border-radius: 5px;
+    color: white; /* Alterado para branco */
+    background-color: transparent; /* Alterado para transparente */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .botoesHeader button:hover {
     background-color: green;
     color: white;
+    border-color: green;
 }
-    
-    
 
 h2 {
     text-align: center;
-    
+    background-color: rgb(3, 84, 2);
+    color: white; /* Alterado para branco */
+}
+
+.textoSobre {
+    color: white;
+    text-align: left;
+    font-size: 2.50rem;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 1300px;
+    display: flex; /* Adiciona display flex para alinhar os itens na horizontal */
+}
+
+.imagemSobre img {
+    height: 400px;
+    width: 400px;
+    margin-left: 20px; /* Adiciona um espaço à esquerda para separar a imagem do texto */
 }
