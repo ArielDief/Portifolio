@@ -10,46 +10,49 @@ body {
 }
 
 .headerMain {
-    width: 20%;
+    width: 18%;
     height: 100vh;
-    background: rgb(3, 84, 2);
+    background: rgb(0, 119, 255);
     position: fixed;
+    
+    
+    
 }
 
 .sectionMain {
-    width: 80%;
-    height: 1500px;
-    background: black; /* Alterado para preto */
+    width: 100%;
+    height: 2000x;
+    background: rgb(43, 43, 43); /* Alterado para preto */
     color: white; /* Alterado para branco */
-    margin-left: 20%;
+    margin-left: 18%;
     padding: 0;
    
 }
 
 .footerMain {
     height: 50px;
-    width: 80%;
-    background-color:rgb(3, 84, 2);
-    margin-left: 20%;
+    width: 82%;
+    background-color: rgb(0, 119, 255);
+    margin-left: 18%;
     padding: 0;
     margin-top: 0; /* Removido o espaçamento */
     
 }
 
 .imagemHeader img {
-    padding: 10px;
+    padding: 0;
     margin: auto;
-    border-radius: 50%;
+    
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
-    border-radius: 30%;
-    box-shadow: 0 0 10px white;
+    border-radius: 20%;
+    box-shadow: 0 0 50px white;
 }
 
 .botoesHeader {
-    padding: 0;
+    padding: 0px;
     color: white; /* Alterado para branco */
     flex-wrap: wrap;
     text-decoration: none;
@@ -57,29 +60,30 @@ body {
     display: flex;
     height: 100px;
     list-style-type: none;
+    text-align: center;
+    
 }
 
+
 .botoesHeader button {
-    height: 40px;
-    width: 200px;
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 5px;
-    color: white; /* Alterado para branco */
-    background-color: transparent; /* Alterado para transparente */
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+      padding: 10px 20px;
+      font-size: 35px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 30px; /* Ajuste esse valor para alterar o grau de arredondamento */
+      background-color: #030303; /* Cor de fundo do botão */
+      color: #ffffff; /* Cor do texto do botão */
+      border: none;
+      cursor: pointer;
+      display: block; /* Adicionando display block para cobrir toda a área do bloco */
+      width: 230px; /* Ajuste a largura conforme necessário */
+      margin: 0 auto; /* Centralizando o botão */
+      box-shadow: 0 0 30px white;
+      border-radius: 20px;
+                        border-bottom: 5px solid #3498db;padding: 20px
+      
+    
     
 }
 
@@ -94,16 +98,17 @@ a {
 }
 
 .botoesHeader button:hover {
-    background-color: green;
+    
     color: white;
-    border-color: green;
+    border-color: rgb(0, 0, 0);
 }
 
 h2 {
     margin: 0;
     text-align: center;
-    background-color: rgb(3, 84, 2);
+    background-color: rgb(0, 119, 255);
     color: white; /* Alterado para branco */
+    font-size: 30px;
 }
 
 .textoSobre {
@@ -111,21 +116,23 @@ h2 {
     text-align: left;
     font-size: 2.50rem;
     font-family: "Roboto", sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(43, 43, 43);
     padding: 10px;
     margin-bottom: 10px;
     width: 98%;
     display: flex; /* Adiciona display flex para alinhar os itens na horizontal */
+    
 }
 
 .imagemSobre img {
     height: 400px;
     width: 400px;
     margin-left: 20px; /* Adiciona um espaço à esquerda para separar a imagem do texto */
+    
 }
 
 .contatoDiv {
-    background-color: black;
+    background-color:rgb(43, 43, 43);
 }
  .contatoDiv button {
     height: 80px;
@@ -137,7 +144,8 @@ h2 {
     font: inherit;
     cursor: pointer;
     outline: inherit;
-  }
+    text-indent: 375px;
+ }
   
   i {
     font-size: 80px;
@@ -147,3 +155,75 @@ h2 {
     height: 40px;
     width: 200px;
   }
+  
+.nomeDiv {
+    width: 98%;
+    height: 90px;
+    padding: 5px;
+    
+}
+
+.experienciasDiv p {
+    color: white;
+    text-align: left;
+    font-size: 1.80rem;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    width: 98%;
+    
+    
+}
+
+.conhecimentosDiv p {
+    color: white;
+    text-align: left;
+    font-size: 1.80rem;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    width: 98%;
+    display: flex;
+    display: inline-block;
+
+}
+
+h3 {
+    margin-top: 0;
+    text-align: center
+
+
+}
+
+.projetosDiv button{
+    height: 80px;
+    width: 80px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-indent: 230px;
+   font-family:"Roboto", sans-serif ;
+    display: inline-block;
+      margin: 60px;
+    
+      
+      
+    
+}
+
+
+.escritaProjetos {
+    font-family:"Roboto", sans-serif ;
+    
+   
+}
+
+
+.botaoContato {
+    text-indent: 145px;
+
+}
