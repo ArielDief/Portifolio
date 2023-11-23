@@ -205,10 +205,13 @@ h3 {
     font: inherit;
     cursor: pointer;
     outline: inherit;
-    text-indent: 230px;
+    text-indent: 125px;
    font-family:"Roboto", sans-serif ;
     display: inline-block;
       margin: 60px;
+      margin-right: 145px;
+      
+    
     
       
       
@@ -216,14 +219,22 @@ h3 {
 }
 
 
-.escritaProjetos {
-    font-family:"Roboto", sans-serif ;
-    
-   
+
+.nomePortifólio, .nomeForca, .nomePygame, .nomeAtitusSound {
+    font-family: "Roboto", sans-serif;
+    padding-left: 230px;
+    font-size: 30px;
+    width: 11px;
+    display: inline-block; /* Adiciona display inline-block para colocar as divs na horizontal */
+    margin-right: 0px; /* Adiciona uma margem direita para separar as divs */
 }
 
-
+.nomeForca, .nomePygame, .nomeAtitusSound {
+    margin-left: 35px; /* Adiciona uma margem esquerda para separar as divs */
+}
 .botaoContato {
     text-indent: 145px;
 
 }
+
+
